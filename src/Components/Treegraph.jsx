@@ -76,12 +76,13 @@ let config = {
                     aligm: ' center',
                     position: "middle",
                     formatter: (context) => {
-                        return context.raw._data.state
+                        return context.raw._data.state.split(" ")
                     },
                     color:"#121212",
                     font:{
                         size:16
-                    }
+                    },
+                    overflowWrap:'normal',
                 },
                 //   backgroundColor:['rgba(255,26,104,0.2)'],
                 spacing: 1,
