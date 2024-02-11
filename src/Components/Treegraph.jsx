@@ -55,7 +55,7 @@ const options = {
                         _data: { temperature },
                     } = item.raw;
                     return [
-                        `Export capacity: ${temperature} MW`,
+                        `Temperature: ${temperature}°C`,
                     ];
                 },
             },
